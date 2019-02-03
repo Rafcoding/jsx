@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import SeasonDisplay from './SeasonDisplay';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class App extends React.Component {
     }
 
     return <div>Loading!</div>
-      
+
   }
 };
 
