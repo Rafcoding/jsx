@@ -8,7 +8,7 @@ class App extends React.Component {
 
     // this is the only time we do direct assignment to this.state
     this.state = { lat: null, errorMessage: '' };
-
+    // try to get the name of this function
     window.navigator.geolocation.getCurrentPosition(
       position => {
         //We called setState
