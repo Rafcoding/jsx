@@ -9,3 +9,10 @@ const ImageList = props => {
 }
 
 export default ImageList;
+
+
+
+// shorter way
+  // const images = props.images.map(({description, id, urls }) => {
+  //   return <img alt={description} key={id} src={urls.regular} />
+  // });
