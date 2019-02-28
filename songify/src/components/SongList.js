@@ -19,17 +19,15 @@ class SongList extends Component {
       );
     });
   }
-
   render(){
     // console.log(this.props);
     // this.props === { songs: state.songs }
     return <div className="ui divided list">{this.renderList()}</div>
   }
 }
-
 // mapStateToProps by convention name (we can call it anyway)
 const mapStateToProps = state => {
-  console.log(state);
+  // console.log(state);
   return { songs: state.songs };
 }
 
