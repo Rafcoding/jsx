@@ -10,7 +10,7 @@ class SearchBar extends React.Component {
     this.props.onSubmitOrSimilarNameWeWant(this.state.term);
   };
 
-  
+  // new line added after fixing issue on gitbhub
 
   render() {
     return (
